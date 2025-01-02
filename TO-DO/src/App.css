@@ -1,0 +1,69 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: cyan;
+  margin: 0; /* Removes default body margins */
+  height: 100vh; /* Ensures the body takes the full viewport height */
+  display: flex; /* Enables flexbox for centering */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+main {
+  text-align: center; /* Centers text within the main block */
+}
+
+h1 {
+  margin: 0; /* Removes extra space around the heading */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* Stacks input and button vertically */
+  align-items: center; /* Aligns them to the center */
+}
+
+.input-container > input {
+  width: 300px; /* Sets a fixed width for the input */
+  height: 30px; /* Sets input height */
+  font-size: 1.25rem; /* Adjusts font size */
+}
+
+.input-container > button {
+  width: 40px; /* Sets button width */
+  height: 40px; /* Sets button height */
+  border-radius: 0px; /* Makes the button circular */
+  font-size: 1.25rem; /* Corrects font size */
+  text-align: center; /* Centers text inside the button */
+  background-color: red; /* Sets button background color */
+  color: white; /* Makes the text color white */
+  margin-top: 20px; /* Adds spacing above the button */
+}
+
+.container {
+  margin-top: 15px; /* Adds space between sections */
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers content horizontally */
+  gap:5px;
+  
+}
+
+.todo {
+  width: 500px; /* Sets a fixed width for todo items */
+  font-size: 1.2rem; /* Sets font size */
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /* Adds space between elements */
+  border-radius: 10px; /* Rounds the corners */
+  border: 1px solid aliceblue; /* Adds a border with a light blue color */
+  padding: 0 5px; /* Adds horizontal padding (syntax corrected) */
+}
+
+.actions > button {
+  background-color: red; /* Sets button background color */
+  color: white; /* Sets text color to white */
+  height: 40px; /* Sets button height */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds button edges slightly */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  font-size:medium;
+}
